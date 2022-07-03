@@ -1,0 +1,49 @@
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.exe.config
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\opers.db
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.exe
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.pdb
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.dll
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.dll
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.xml
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.xml
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csprojResolveAssemblyReference.cache
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\MainWindow.g.cs
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\App.g.cs
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite_MarkupCompile.cache
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite_MarkupCompile.lref
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\MainWindow.baml
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.g.resources
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.Properties.Resources.resources
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.GenerateResource.Cache
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.exe
+c:\users\vyatkin\documents\visual studio 2015\Projects\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.pdb
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\opers.db
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.exe.config
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.exe
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\WpfSqlLite.pdb
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.dll
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.dll
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.xml
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\bin\Debug\System.Data.SQLite.xml
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.AssemblyReference.cache
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.SuggestedBindingRedirects.cache
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\MainWindow.g.cs
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\App.g.cs
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite_MarkupCompile.cache
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite_MarkupCompile.lref
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\MainWindow.baml
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.g.resources
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.Properties.Resources.resources
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.GenerateResource.cache
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.CoreCompileInputs.cache
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.csproj.CopyComplete
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.exe
+C:\Users\TacWerewolf\Downloads\WpfSqlLite\WpfSqlLite\obj\Debug\WpfSqlLite.pdb

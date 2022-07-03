@@ -1,0 +1,94 @@
+﻿<Window x:Class="WpfSqlLite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfSqlLite"
+        mc:Ignorable="d"
+        Title="Планировщик бюджета" Height="350" Width="565"
+        MinHeight="250" MinWidth="350">
+
+    <TabControl TabStripPlacement="Left" SelectedIndex="2">
+        <TabItem>
+            <TabItem.Header>
+                <TextBlock FontSize="16" MinWidth="100" TextAlignment="Center">Таблица</TextBlock>
+            </TabItem.Header>
+            <TabItem.Content>
+                <Grid>
+                    <ListView Name="opsList" ItemsSource="{Binding}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Date}">Дата</GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Sum}">Сумма</GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Type}">Тип операции</GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Category}" Width="Auto">Категория</GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Path=Comment}" Width="Auto">Комментарий</GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <TextBlock FontSize="16" MinWidth="100" TextAlignment="Center">Добавление</TextBlock>
+            </TabItem.Header>
+            <TabItem.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.3*"/>
+                        <RowDefinition Height="0.7*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Grid.Row="0">
+                        <TextBlock FontSize="16">Сумма операции:</TextBlock>
+                        <TextBox x:Name="AddSum" Margin="5" FontSize="16">
+                            <TextBox.Text>
+                                <Binding Path="Sum">
+                                    <Binding.ValidationRules>
+                                        <ExceptionValidationRule />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox.Text>
+                        </TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Grid.Row="0">
+                        <TextBlock FontSize="16">Тип операции:</TextBlock>
+                        <ComboBox x:Name="AddType" Margin="5" IsReadOnly="True" SelectionChanged="AddType_Selected" FontSize="16">
+                            <TextBlock>Доход</TextBlock>
+                            <TextBlock>Расход</TextBlock>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Grid.ColumnSpan="2" Grid.Row="1">
+                        <TextBlock FontSize="16">Категория:</TextBlock>
+                        <ComboBox x:Name="AddCategory" Margin="5" IsReadOnly="True" FontSize="16">
+                        </ComboBox>
+                        <TextBlock FontSize="16">Комментарий:</TextBlock>
+                        <TextBox x:Name="AddComment" Margin="5" FontSize="14" MinHeight="50">
+                        </TextBox>
+                        <Button Click="AddData" Content="Добавить" FontSize="16" Margin="10">
+                            <Button.ToolTip>
+                                Заполните все поля, за исключением комментария!
+                            </Button.ToolTip>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem.Content>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <TextBlock FontSize="16" MinWidth="100" TextAlignment="Center">Баланс</TextBlock>
+            </TabItem.Header>
+            <TabItem.Content>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Баланс:" HorizontalAlignment="Center" Margin="15" FontSize="26" FontWeight="Bold"/>
+                    <TextBlock x:Name="Balance" Text="{Binding Sum, UpdateSourceTrigger=PropertyChanged, StringFormat={}{0:C}}" 
+                               HorizontalAlignment="Center"  FontSize="26" />
+                </StackPanel>
+            </TabItem.Content>
+        </TabItem>
+    </TabControl>
+</Window>
