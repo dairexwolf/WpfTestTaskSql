@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Data.Entity;
 using System.Collections.ObjectModel;
+using System.Globalization;
 
 namespace WpfSqlLite
 {
@@ -35,7 +36,7 @@ namespace WpfSqlLite
         {
             float sum;
             // Проверка введенной пользователем суммы
-            if (float.TryParse(AddSum.Text, out sum)&&(sum>0))
+            if (float.TryParse(AddSum.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out sum) && (sum > 0))
             {
                 string _type = AddType.Text;
                 string _category = AddCategory.Text;
